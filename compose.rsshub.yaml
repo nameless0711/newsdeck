@@ -1,0 +1,21 @@
+# docker compose -f compose.yaml -f compose.rsshub.yaml up -d --build
+services:
+  rsshub:
+    image: diygod/rsshub:latest
+    restart: unless-stopped
+    environment:
+      CACHE_TYPE: memory
+      CACHE_EXPIRE: '3600'
+      UA: NewsdeckBot/1.0
+      NO_RANDOM_UA: 'true'
+      INSTAGRAM_COOKIE: ''
+      IG_COOKIE: ''
+      IG_USERNAME: ''
+      IG_PASSWORD: ''
+    # Kein veröffentlichter Port; nur für die internen NEWSDECK-Dienste.
+  web:
+    environment:
+      RSSHUB_BASE_URL: http://rsshub:1200
+  worker:
+    environment:
+      RSSHUB_BASE_URL: http://rsshub:1200

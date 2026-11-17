@@ -1,0 +1,4 @@
+[
+  {"name":"tagesschau.de – Beispielquelle","description":"Echte Nachrichten; nur privater, nicht-kommerzieller Newsreader. Bedingungen: https://www.tagesschau.de/infoservices/rssfeeds","url":"https://www.tagesschau.de/index~rss2.xml","type":"rss","topics":[],"priority":7,"interval_minutes":30,"enabled":false,"rights_confirmed":false},
+  {"name":"Deutsche Bundesbank – Beispielquelle","description":"Echte Pressenotizen; Nutzungsbedingungen vor Aktivierung prüfen. https://www.bundesbank.de/de/startseite/rss","url":"https://www.bundesbank.de/service/rss/de/633286/feed.rss","type":"rss","topics":[],"priority":7,"interval_minutes":60,"enabled":false,"rights_confirmed":false}
+]

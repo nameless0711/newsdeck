@@ -1,0 +1,10 @@
+node_modules
+.rsshub
+.npm-cache
+.env
+data
+backups
+dist
+.git
+*.log
+*.zip

@@ -1,0 +1,17 @@
+
+# Organisationen, interner Kontext. Nicht fuer GitHub.
+# Private/betriebsspezifische Inhalte: tatsaechliche Quellen, Profile,
+*.log
+.env
+.npm-cache/
+.rsshub/
+Claude outputs/
+NEWSDECK-KONTEXT.md
+Newsdeck-Quellcode.zip
+_claude_export.tar.gz
+backups/
+coverage/
+data/
+dist/
+docs/privat/
+node_modules/
